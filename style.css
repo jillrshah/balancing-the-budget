@@ -52,6 +52,24 @@ html, body {
     font-weight: bold;
 }
 
+.advice {
+    display: none;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.advice.warning {
+    color: #E8D82A;
+}
+
+.advice.error {
+    color: #E00C0A;
+}
+
+.advice.active {
+    display: block;
+}
+
 input {
     width: 100%;
     display: block;
